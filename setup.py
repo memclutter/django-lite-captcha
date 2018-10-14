@@ -8,14 +8,15 @@ with open(os.path.join(os.path.dirname(__file__), 'README.md')) as readme:
 os.chdir(os.path.normpath(os.path.join(os.path.abspath(__file__), os.pardir)))
 
 setup(
-    name='django-lite-captcha',
-    version='0.0.1',
+    name='lite_captcha',
+    version='0.0.2',
     packages=find_packages(),
     include_package_data=True,
     license='Apache 2',  # example license
     description='Lite captcha for django projects.',
     url='https://github.com/memclutter/django-lite-captcha',
     long_description=README,
+    long_description_content_type='text/markdown',
     author='Memory Clutter',
     author_email='memclutter@gmail.com',
     install_requires=['captcha==0.2.4',
