@@ -53,3 +53,4 @@ class ContactForm(forms.Form):
     # ...
 ```
 5. Override templates or use default.
+6. Optional, change default django session backend for more performance.
