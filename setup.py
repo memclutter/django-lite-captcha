@@ -24,7 +24,7 @@ setup(
         'Environment :: Web Environment',
         'Framework :: Django',
         'Intended Audience :: Developers',
-        'License :: OSI Approved :: Apache 2',  # example license
+        'License :: OSI Approved :: Apache Software License :: 2.0',
         'Programming Language :: Python',
         'Programming Language :: Python :: 3.6',
         'Topic :: Internet :: WWW/HTTP',
