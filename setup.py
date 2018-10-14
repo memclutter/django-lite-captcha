@@ -14,6 +14,7 @@ setup(
     include_package_data=True,
     license='Apache 2',  # example license
     description='Lite captcha for django projects.',
+    url='https://github.com/memclutter/django-lite-captcha',
     long_description=README,
     author='Memory Clutter',
     author_email='memclutter@gmail.com',
