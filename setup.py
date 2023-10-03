@@ -20,7 +20,7 @@ setup(
     author='Memory Clutter',
     author_email='memclutter@gmail.com',
     install_requires=['captcha==0.2.4',
-                      'Pillow==5.3.0'],
+                      'Pillow==10.0.1'],
     classifiers=[
         'Environment :: Web Environment',
         'Framework :: Django',
